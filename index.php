@@ -18,5 +18,7 @@ imagepng($img, 'test.png');
     imagestring($im, $font, 0, 0,$string,$lime );
     /*imagepng($im, 'test.png');*/
     header("Content-type: image/png");
-    imagepng($im);
-    imagedestroy($im);
+    /*imagepng($im);*/
+    /*imagedestroy($im);*/
+
+    /*Its easy to code*/
